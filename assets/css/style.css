@@ -1,0 +1,51 @@
+.font-1 {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.font-2 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.cont-main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-login {
+    background: white;
+    height: 100vh;
+}
+
+.cont-login form {
+    width: 70%;
+}
+
+.cont-main form {
+    border: 2px solid;
+    padding: 25px;
+    background: rgba(0, 126, 255, 0.5);
+    border-radius: 50px;
+}
+
+.cont-main label {
+    color: white;
+    font-weight: bold;
+}
+
+.cont-main form select {
+    background: white;
+    color: #fff;
+    border: 1px solid;
+}
+
+.bg-base {
+    background: white;
+}
+
+@media only screen and (max-width: 700px) {
+    .cont-main {
+        height: auto;
+    }
+}
